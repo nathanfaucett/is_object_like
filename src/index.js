@@ -1,3 +1,6 @@
-module.exports = function isObjectLike(obj) {
+module.exports = isObjectLike;
+
+
+function isObjectLike(obj) {
     return (obj && typeof(obj) === "object") || false;
-};
+}
